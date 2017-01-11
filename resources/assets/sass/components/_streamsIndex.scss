@@ -1,0 +1,165 @@
+.streamsIndex {
+	font-size: 1rem;
+	overflow: auto;
+
+	&-single {
+		width: 100%;
+		position: relative;
+		float: left;
+
+		&-inner {
+			margin: 8em 1.5em 2.5em;
+		}
+
+		&-artist-link {
+			@include font-futura;
+			font-weight: 600;
+			font-size: 2em;
+			color: $brand-white;
+			text-decoration: none;
+		}
+
+		&-location {
+
+			&-icon {
+				float: left;
+				font-size: 1.5em;
+				color: $brand-white;
+			}
+
+			&-link {
+				@include font-lato;
+				font-size: 1em;
+				line-height: 1.5em;
+				color: $brand-white;
+				text-decoration: none;
+			}
+		}
+
+		&-date {
+			@include box-shadow;
+			position: absolute;
+			top: 0;
+			right: 0;
+			text-align: center;
+			background-color: $brand-white;
+			padding: 1em;
+
+			&-month {
+				@include font-futura;
+				font-weight: 600;
+				font-size: 1.4em;
+				margin: 0;
+				color: $brand-red;
+			}
+
+			&-day {
+				@include font-futura;
+				font-weight: 600;
+				font-size: 3em;
+				margin: 0;
+				color: $brand-dark-grey;
+			}
+		}
+	}
+
+	// Every fourth stream, starting with the first.
+	&-single:nth-of-type(4n-7) {
+		background-color: $brand-light-grey;
+	}
+
+	// Every fourth stream, starting with the second.
+	&-single:nth-of-type(4n-6) {
+		background-color: $brand-black;
+	}
+
+	// Every fourth stream, starting with the third.
+	&-single:nth-of-type(4n-5) {
+		background-color: $brand-red;
+	}
+
+	// Every fourth stream, starting with the fourth.
+	&-single:nth-of-type(4n) {
+		background-color: $brand-dark-grey;
+	}
+}
+
+@media (min-width: 600px) {
+	.streamsIndex {
+
+		&-single {
+			width: 50%;
+
+			&-inner {
+
+			}
+
+			&-artist-link {
+
+			}
+
+			&-location {
+
+				&-icon {
+
+				}
+
+				&-link {
+
+				}
+			}
+
+			&-date {
+
+
+				&-month {
+
+				}
+
+				&-day {
+
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.streamsIndex {
+
+		&-single {
+			width: 25%;
+
+			&-inner {
+
+			}
+
+			&-artist-link {
+
+			}
+
+			&-location {
+
+				&-icon {
+
+				}
+
+				&-link {
+
+				}
+			}
+
+			&-date {
+
+
+				&-month {
+
+				}
+
+				&-day {
+
+				}
+			}
+		}
+	}
+}

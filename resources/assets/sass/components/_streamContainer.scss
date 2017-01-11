@@ -61,79 +61,79 @@
 				text-decoration: none;
 			}
 		}
+
+		& .donateForm {
+			overflow: auto;
+			margin-top: 1.5em;
+
+			&-title {
+				@include font-lato;
+				font-size: 1em;
+				color: $brand-black;
+				margin: 0 1.5em 1em;
+				padding-bottom: 0.25em;
+				border-bottom: 2px solid $brand-dark-grey;
+			}
+
+			&-amount {
+				@include font-lato;
+				font-size: 1em;
+				color: $brand-black;
+				margin-left: 1.5em;
+				margin-bottom: 1em;
+				float: left;
+
+				&-label {
+					color: $brand-dark-grey;
+					line-height: 2em;
+					border-color: $brand-dark-grey;
+					border-width: 1px;
+					float: left;
+
+					&-currency {
+						margin-left: 1em;
+						margin-top: 0.08em;
+					}
+				}
+
+				&-input {
+					@include font-lato;
+					color: $brand-dark-grey;
+					font-size: 1em;
+					padding: 0;
+					border: 0;
+					height: 1.875em;
+					width: 3em;
+					border-bottom: 0.0625em solid $brand-dark-grey;
+					outline: none;
+				}
+
+				&-input[type=number]::-webkit-inner-spin-button, 
+				&-input[type=number]::-webkit-outer-spin-button { 
+					-webkit-appearance: none; 
+					margin: 0; 
+				}
+			}
+
+			&-button {
+				margin-left: 1.5em;
+				margin-bottom: 1em;
+				float: left;
+				font-size: 0.8em;
+			}
+
+			&-errors {
+				@include font-lato;
+				font-size: 1em;
+				color: $brand-red;
+				float: left;
+				margin: 0.5em 1.5em 1em;
+			}
+		}
 	}
 
 	&-comments {
 		margin: 0 1em;
-	}
-}
-
-.streamContainer-details .donateForm {
-	overflow: auto;
-	margin-top: 1.5em;
-
-	&-title {
-		@include font-lato;
-		font-size: 1em;
-		color: $brand-black;
-		margin: 0 1.5em 1em;
-		padding-bottom: 0.25em;
-		border-bottom: 2px solid $brand-dark-grey;
-	}
-
-	&-amount {
-		@include font-lato;
-		font-size: 1em;
-		color: $brand-black;
-		margin-left: 1.5em;
-		margin-bottom: 1em;
-		float: left;
-
-		&-label {
-			color: $brand-dark-grey;
-			line-height: 2em;
-			border-color: $brand-dark-grey;
-			border-width: 1px;
-			float: left;
-
-			&-currency {
-				margin-left: 1em;
-				margin-top: 0.08em;
-			}
-		}
-
-		&-input {
-			@include font-lato;
-			color: $brand-dark-grey;
-			font-size: 1em;
-			padding: 0;
-			border: 0;
-			height: 1.875em;
-			width: 3em;
-			border-bottom: 0.0625em solid $brand-dark-grey;
-			outline: none;
-		}
-
-		&-input[type=number]::-webkit-inner-spin-button, 
-		&-input[type=number]::-webkit-outer-spin-button { 
-		  -webkit-appearance: none; 
-		  margin: 0; 
-		}
-	}
-
-	&-button {
-		margin-left: 1.5em;
-		margin-bottom: 1em;
-		float: left;
-		font-size: 0.8em;
-	}
-
-	&-error {
-		@include font-lato;
-		font-size: 1em;
-		color: $brand-red;
-	    float: left;
-	    margin: 0.5em 1.5em 1em;
 	}
 }
 

@@ -1,0 +1,62 @@
+.signup {
+	font-size: 1rem;
+	background-color: $brand-white;
+	margin-top: 5em;
+	margin-left: 15%;
+	margin-bottom: 5em;
+	margin-right: 15%;
+	min-height: 50vh;
+
+	&-heroText {
+		@include font-futura;
+		font-size: 2.5em;
+		font-weight: 600;
+		color: $brand-black;
+	}
+
+	&-paragraph {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-black;
+		margin-bottom: 2em;
+	}
+
+	&-errors {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-black;
+	}
+
+	.signupForm {
+		overflow: auto;
+
+		&-textInput {
+			display: inline-block;
+			margin-right: 2em;
+			margin-bottom: 2em;
+			line-height: 2em;
+
+			&-label {
+				@include font-lato;
+				margin-right: 1em;
+				font-size: 1em;
+				color: $brand-dark-grey;
+			}
+
+			&-input {
+				@include font-lato;
+				font-size: 1em;
+				color: $brand-black;
+				border: 0;
+				border-bottom: 0.0625em solid $brand-dark-grey;
+				outline: none;
+			}
+		}
+
+		&-button {
+			font-size: 1.4em;
+			width: 200px;
+			display: inline-block;
+		}
+	}
+}

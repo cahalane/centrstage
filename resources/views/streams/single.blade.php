@@ -39,7 +39,7 @@
 		</section>
 	</div>
 
-	@include('partials/streams-index')
+	@include('components/streamsIndex')
 
 </main>
 

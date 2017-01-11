@@ -4,19 +4,17 @@
 <title>How it Works | Centrstage</title>
 @endsection
 
+<header class="header">
+	@include('partials.navbar')
+</header>
+
 <main>
-
-	<header class="header">
-
-		@include('partials.navbar')
-
-	</header>
 
 	<section class="howItWorks">
 
-		<h2 class="howItWorks-subtext">
+		<h1 class="howItWorks-subtext">
 			<span class="logotype-black">centr</span><span class="logotype-red">stage</span> is an online platform that allows subscribers to watch live music performances in real-time from the comfort of their own home.
-		</h2>
+		</h1>
 		<p class="howItWorks-paragraph">
 			Our mission is to become the primary outlet for viewing unique, professionally captured, live music performances online.
 		</p>

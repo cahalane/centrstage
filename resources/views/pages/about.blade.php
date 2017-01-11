@@ -4,25 +4,23 @@
 <title>About Centrstage</title>
 @endsection
 
+<header class="header">
+	@include('partials.navbar')
+</header>
+
 <main>
-
-	<header class="header">
-
-		@include('partials.navbar')
-
-	</header>
 
 	<section class="about">
 
-		<h2 class="about-subtext">
+		<h1 class="about-heroText">
 			<span class="logotype-black">centr</span><span class="logotype-red">stage</span> is an online platform that allows subscribers to watch live music performances in real-time from the comfort of their own home.
-		</h2>
-		<p class="about-paragraph">
+		</h1>
+		<h2 class="about-subtext">
 			Our mission is to become the primary outlet for viewing unique, professionally captured, live music performances online.
-		</p>
-		<p class="about-paragraph">
+		</h2>
+		<h2 class="about-subtext">
 			We aim to establish ourselves as a brand that truly champions music, stands up for artistry and nurtures connectivity, whilst providing an exciting platform for musical discovery.
-		</p>
+		</h2>
 		<a class="about-button-link" href="/signup">
 			<button class="about-button button--primary">Sign Up</button>
 		</a>

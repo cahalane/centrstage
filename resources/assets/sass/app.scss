@@ -6,12 +6,29 @@
 // Material Design Icons from Materialize.css
 @import "node_modules/materialize-css/sass/components/icons-material-design";
 
-// Variables
+// Variables & Mixins
 @import "variables";
-
-// Mixins
 @import "mixins";
 
-// Components
+// General Styling
 @import "style";
-@import "streams";
+@import "typography";
+
+// Pages
+@import "pages/about";
+@import "pages/homepage";
+@import "pages/hostAStream";
+@import "pages/howItWorks";
+@import "pages/signup";
+
+// Streams Pages
+@import "streams/index";
+
+// Partials
+@import "partials/navbar";
+@import "partials/footer";
+
+// Components
+@import "components/buttons";
+@import "components/streamContainer";
+@import "components/streamsIndex";

@@ -15,7 +15,7 @@
 
         <button class="donateForm-button button--tertiary" type="submit" @click.prevent="donate">Donate</button>
 
-        <p class="donateForm-error" v-show="status">{{ status }} Please try again later or with a different card.</p>
+        <p class="donateForm-errors" v-show="status">{{ status }} Please try again later or with a different card.</p>
     </form>
     
 </template>

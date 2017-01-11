@@ -1,0 +1,33 @@
+.about {
+	font-size: 1rem;
+	background-color: $brand-white;
+	margin-top: 5em;
+	margin-left: 15%;
+	margin-bottom: 5em;
+	margin-right: 15%;
+	min-height: 50vh;
+
+	&-heroText {
+		@include font-futura;
+		font-size: 1.8em;
+		font-weight: 600;
+		color: $brand-black;
+	}
+
+	&-subtext {
+		@include font-lato;
+		font-size: 1.6em;
+		color: $brand-dark-grey;
+	}
+
+	&-paragraph {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-black;
+	}
+
+	&-button {
+		font-size: 1.4em;
+		width: 200px;
+	}
+}

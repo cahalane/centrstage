@@ -1,0 +1,12 @@
+.logotype {
+
+	&-black {
+		@include logotype;
+		color: $brand-black;
+	}
+
+	&-red {
+		@include logotype;
+		color: $brand-red;
+	}
+}
