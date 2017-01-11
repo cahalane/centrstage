@@ -6,6 +6,10 @@
   font-feature-settings: 'liga';
 }
 
+.proof {
+  display: none;
+}
+
 .logotype-black {
   font-family: Futura, Sans-Serif;
   font-weight: 600;

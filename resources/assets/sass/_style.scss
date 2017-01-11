@@ -1,3 +1,7 @@
+.proof {
+	display: none;
+}
+
 .logotype {
 
 	&-black {
@@ -61,8 +65,6 @@ html, body {
 
 .navbar {
 	font-size: 1rem;
-	// overflow: auto;
-	// height: 60px;
 
 	&-inner {
 		margin-left: 10%;
@@ -172,7 +174,6 @@ html, body {
 			font-size: 1.4em;
 		}
 
-		//heroArea-content-button.button--primary
 		&-button {
 			display: block;
 			margin-left: auto;
