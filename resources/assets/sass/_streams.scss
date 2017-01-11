@@ -1,0 +1,184 @@
+.streamContainer {
+	overflow: auto;
+
+	&-video {
+
+		&-player {
+
+		}
+	}
+
+	&-details {
+		background-color: $brand-white;
+		width: 100%;
+
+		&-title {
+			background-color: $brand-red;
+			@include font-lato;
+			font-weight: 700;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			color: $brand-white;
+			margin: 0;
+			padding: 0.5em 1em;
+		}
+
+		&-date {
+			@include font-lato;
+			font-size: 1em;
+			font-weight: 700;
+			color: $brand-black;
+			margin-left: 1.5em;
+			margin-right: 15px;
+		}
+
+		&-description {
+			@include font-lato;
+			font-size: 1em;
+			font-weight: 300;
+			color: $brand-black;
+			margin-left: 1.5em;
+			margin-right: 15px;
+		}
+
+		&-venue {
+			margin-bottom: 1em;
+
+			&-icon {
+				float: left;
+				font-size: 1.5em;
+				margin-left: 0.75em;
+				color: $brand-dark-grey;
+			}
+
+			&-link {
+				@include font-lato;
+				font-size: 1em;
+				font-weight: 700;
+				color: $brand-dark-grey;
+				margin-right: 15px;
+				line-height: 1.5em;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&-comments {
+		margin: 0 1em;
+	}
+}
+
+.streamContainer-details .donateForm {
+	overflow: auto;
+	margin-top: 1.5em;
+
+	&-title {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-black;
+		margin: 0 1.5em 1em;
+		padding-bottom: 0.25em;
+		border-bottom: 2px solid $brand-dark-grey;
+	}
+
+	&-amount {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-black;
+		margin-left: 1.5em;
+		margin-bottom: 1em;
+		float: left;
+
+		&-label {
+			color: $brand-dark-grey;
+			line-height: 2em;
+			border-color: $brand-dark-grey;
+			border-width: 1px;
+			float: left;
+
+			&-currency {
+				margin-left: 1em;
+				margin-top: 0.08em;
+			}
+		}
+
+		&-input {
+			@include font-lato;
+			color: $brand-dark-grey;
+			font-size: 1em;
+			padding: 0;
+			border: 0;
+			height: 1.875em;
+			width: 3em;
+			border-bottom: 0.0625em solid $brand-dark-grey;
+			outline: none;
+		}
+
+		&-input[type=number]::-webkit-inner-spin-button, 
+		&-input[type=number]::-webkit-outer-spin-button { 
+		  -webkit-appearance: none; 
+		  margin: 0; 
+		}
+	}
+
+	&-button {
+		margin-left: 1.5em;
+		margin-bottom: 1em;
+		float: left;
+		font-size: 0.8em;
+	}
+
+	&-error {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-red;
+	    float: left;
+	    margin: 0.5em 1.5em 1em;
+	}
+}
+
+@media (min-width: 768px) {
+	.streamContainer {
+		min-height: 100vh;
+		padding-top: 12px;
+		padding-left: 5%;
+		padding-right: 5%;
+		background-color: #f1f1f1;
+
+		&-video {
+			display: inline-block;
+			float: left;
+			width: 65%;
+			margin-bottom: 12px;
+
+			&-player {
+
+			}
+		}
+
+		&-details {
+			@include box-shadow;
+			background-color: $brand-white;
+			width: 33%;
+			margin-left: 12px;
+			float: left;
+
+			&-title {
+
+			}
+
+			&-date {
+
+			}
+		}
+
+		&-comments {
+			@include box-shadow;
+			background-color: $brand-white;
+			display: inline-block;
+			width: 65%;
+			float: left;
+			margin: 0 0 12px;
+		}
+	}
+}
