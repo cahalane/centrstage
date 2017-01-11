@@ -137,7 +137,7 @@ html, body {
   background: url(/img/hero-image.jpg) center center no-repeat fixed rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-blend-mode: darken;
-  width: 100vw;
+  width: 100%;
   min-height: 80vh;
 }
 
@@ -255,16 +255,13 @@ html, body {
 }
 
 .streamsIndex-single {
-  width: 100vw;
+  width: 100%;
   position: relative;
   float: left;
 }
 
 .streamsIndex-single-inner {
-  margin-top: 8em;
-  margin-left: 2.5vw;
-  margin-bottom: 2.5em;
-  margin-right: 2.5vw;
+  margin: 8em 1.5em 2.5em;
 }
 
 .streamsIndex-single-artist-link {
@@ -335,13 +332,13 @@ html, body {
 
 @media (min-width: 600px) {
   .streamsIndex-single {
-    width: 50vw;
+    width: 50%;
   }
 }
 
 @media (min-width: 768px) {
   .streamsIndex-single {
-    width: 25vw;
+    width: 25%;
   }
 }
 
@@ -352,8 +349,8 @@ html, body {
 }
 
 .footer-inner {
-  margin-left: 12.5vw;
-  margin-right: 12.5vw;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 
 .footer-column {
@@ -394,7 +391,7 @@ html, body {
     display: inline-block;
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 25vw;
+    width: 33.33333333%;
     float: left;
     font-size: 1em;
     text-align: left;
