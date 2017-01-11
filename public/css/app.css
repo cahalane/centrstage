@@ -6,6 +6,10 @@
   font-feature-settings: 'liga';
 }
 
+.test {
+  display: none;
+}
+
 html, body {
   margin: 0;
 }
