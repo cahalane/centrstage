@@ -36,7 +36,7 @@
 
 	</section>
 
-	@include('components/streamsIndex')
+	{{-- @include('components/streamsIndex') --}}
 
 </main>
 

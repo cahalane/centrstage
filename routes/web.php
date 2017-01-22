@@ -22,3 +22,5 @@ Route::resource('streams', 'StreamsController');
 Route::post('purchases', 'PurchasesController@store');
 
 Route::post('contact', 'ContactController@mail');
+
+Route::post('signup', 'SignupsController@store');
