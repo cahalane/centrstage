@@ -23,4 +23,5 @@ Route::post('purchases', 'PurchasesController@store');
 
 Route::post('contact', 'ContactController@mail');
 
+Route::get('signups', 'SignupsController@index');
 Route::post('signup', 'SignupsController@store');

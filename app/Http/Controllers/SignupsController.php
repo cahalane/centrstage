@@ -14,7 +14,7 @@ class SignupsController extends Controller
      */
     public function index()
     {
-        //
+        return Signup::all();
     }
 
     /**
