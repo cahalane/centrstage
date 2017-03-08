@@ -11,17 +11,28 @@
 |
 */
 
-Route::get('/', 'PagesController@homepage');
-Route::get('about', 'PagesController@about');
-Route::get('how-it-works', 'PagesController@howItWorks');
-Route::get('host-a-stream', 'PagesController@hostAStream');
-Route::get('signup', 'PagesController@signup');
+Route::group(['domain' => env('APP_URL')], function () {
+	Route::get('/', 'PagesController@homepage');
+	Route::get('about', 'PagesController@about');
+	Route::get('how-it-works', 'PagesController@howItWorks');
+	Route::get('host-a-stream', 'PagesController@hostAStream');
+	Route::get('signup', 'PagesController@signup');
 
-Route::resource('streams', 'StreamsController');
+	Route::resource('streams', 'StreamsController');
 
-Route::post('purchases', 'PurchasesController@store');
+	Route::post('purchases', 'PurchasesController@store');
 
-Route::post('contact', 'ContactController@mail');
+	Route::post('contact', 'ContactController@mail');
 
-Route::get('signups', 'SignupsController@index');
-Route::post('signup', 'SignupsController@store');
+	Route::post('signup', 'SignupsController@store');
+
+	Route::get('live', function () {
+		return redirect('https://livestream.com/accounts/23488315/events/7047641');
+	});
+});
+
+Route::group(['domain' => 'admin.'.env('APP_URL')], function () {
+	Route::get('/', 'AdminController@home');
+
+	Route::get('signups', 'SignupsController@index');
+});

@@ -1,0 +1,19 @@
+// Vendor
+// @import "node_modules/materialize-css/dist/css/materilaize.min.css"
+
+// App-wide Variables & Mixins
+@import "variables";
+@import "mixins";
+
+// App-wide Styling
+@import "style";
+@import "typography";
+
+// Admin-specific Styling
+@import "admin/style";
+
+// Components
+@import "admin/components/sideNav";
+@import "admin/components/header";
+@import "admin/components/main";
+@import "admin/components/footer";

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('site')
 
 @section('title')
 <title>How it Works | Centrstage</title>

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('site')
 
 @section('title')
 <title>{{ $stream->title }} Live | Centrstage</title>
@@ -17,7 +17,7 @@
 	<div class="streamContainer">
 		<section class="streamContainer-video">
 
-			<div class="streamContainer-video-player fb-video" data-href="https://www.facebook.com/AcousticTrench/videos/bc.AbpWHy9R9mHqS3n3dqfYdLg-JFF7-sTA-fCslZUfQ-BFrJp3Zxp1LxSf8UadzFKPGggBA0SL5zMd6i522FV1hGD7kzjbmKBbKjPoAgL8m_8yX2tGOhxqExMwcil0tCT9S9FIp0laSMspaPoT4i7ilztH/1120243774661784/" data-width="auto" data-allowfullscreen="true"></div>
+			<div class="streamContainer-video-player fb-video" data-href="https://www.facebook.com/1615598228728084/videos/1870984349856136/" data-width="auto" data-allowfullscreen="true"></div>
 
 		</section>
 
@@ -35,7 +35,7 @@
 		</section>
 
 		<section class="streamContainer-comments">
-			<div class="fb-comments" data-href="https://www.facebook.com/AcousticTrench/videos/bc.AbpWHy9R9mHqS3n3dqfYdLg-JFF7-sTA-fCslZUfQ-BFrJp3Zxp1LxSf8UadzFKPGggBA0SL5zMd6i522FV1hGD7kzjbmKBbKjPoAgL8m_8yX2tGOhxqExMwcil0tCT9S9FIp0laSMspaPoT4i7ilztH/1120243774661784/" data-width="100%" data-numposts="5"></div>
+			<div class="fb-comments" data-href="https://www.facebook.com/1615598228728084/videos/1870984349856136/" data-width="100%" data-numposts="5"></div>
 		</section>
 	</div>
 

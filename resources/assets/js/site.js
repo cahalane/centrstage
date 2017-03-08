@@ -15,6 +15,6 @@ require('./bootstrap');
 
 Vue.component('donateForm', require('./components/donateForm.vue'));
 
-const app = new Vue({
-    el: '#app'
+const site = new Vue({
+    el: '#site'
 });

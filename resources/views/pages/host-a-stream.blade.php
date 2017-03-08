@@ -1,8 +1,10 @@
-@extends('layout')
+@extends('site')
 
 @section('title')
 <title>Host a Stream | Centrstage</title>
 @endsection
+
+@section('content')
 
 <header class="header">
 	@include('partials.navbar')
@@ -26,3 +28,5 @@
 </main>
 
 @include('partials/footer')
+
+@endsection('content')

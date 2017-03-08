@@ -1,8 +1,10 @@
-@extends('layout')
+@extends('site')
 
 @section('title')
 <title>Live Concert Streams | Centrstage</title>
 @endsection
+
+@section('content')
 
 <main>
 
@@ -34,3 +36,5 @@
 </main>
 
 @include('partials/footer')
+
+@endsection

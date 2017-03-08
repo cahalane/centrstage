@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script>
-    	var Centrstage = {
+    	window.Laravel = {
     		csrfToken: "{{ csrf_token() }}",
     		stripeKey: "{{ config('services.stripe.key') }}"
     	}
@@ -14,19 +14,19 @@
 
     @yield('title')
 
-    <!-- Material Design Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <link href="/css/app.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="{{ mix('/css/site.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-<div id="app">
-    @yield('content')
-</div>
+    @include('partials.banner')
+    
+    <div id="site">
+        @yield('content')
+    </div>
 
-@yield('scripts')
-<script src="/js/app.js" type="text/javascript"></script>
+    @yield('scripts')
+    <script src="{{ mix('/js/site.js') }}" type="text/javascript"></script>
 
 </body>
 </html>

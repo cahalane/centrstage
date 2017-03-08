@@ -1,0 +1,19 @@
+.banner {
+	position: fixed;
+	background-color: $brand-red;
+	width: 100%;
+	min-height: 32px;
+
+	&-text {
+		color: $brand-white;
+		text-align: center;
+		margin: 0;
+		line-height: 32px;
+		@include font-lato;
+
+		&-link {
+			margin: 0;
+			color: inherit;
+		}
+	}
+}
