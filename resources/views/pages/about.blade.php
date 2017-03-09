@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-<title>About Centrstage</title>
+About Centrstage
 @endsection
 
 @section('content')

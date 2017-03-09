@@ -12,7 +12,9 @@
     	}
     </script>
 
-    @yield('title')
+    <title>
+        @yield('title')
+    </title>
 
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link href="{{ mix('/css/site.css') }}" rel="stylesheet" type="text/css">

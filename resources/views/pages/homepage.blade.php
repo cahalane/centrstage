@@ -1,5 +1,9 @@
 @extends('site')
 
+@section('title')
+Centrstage | Live Music Anywhere
+@endsection
+
 @section('content')
 
 <main>

@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-<title>Live Concert Streams | Centrstage</title>
+Live Concert Streams | Centrstage
 @endsection
 
 @section('content')

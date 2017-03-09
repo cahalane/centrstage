@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-<title>Host a Stream | Centrstage</title>
+Get in touch | Centrstage
 @endsection
 
 @section('content')
