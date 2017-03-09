@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    @include('partials.banner')
+    {{-- @include('partials.banner') --}}
     
     <div id="site">
         @yield('content')

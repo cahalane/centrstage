@@ -17,9 +17,8 @@ class ContactController extends Controller
         ];        
 
         Mail::to('dave@jiff.ie')
-            ->bcc('bcc@jiff.ie')
             ->send(new Contact($content));
 
-        return response()->json(['message' => 'Request completed']);
+        return redirect('/');
     }
 }

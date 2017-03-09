@@ -7,25 +7,18 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class Contact extends Mailable
+class ContactForm extends Mailable
 {
     use Queueable, SerializesModels;
-
-    /**
-     * Sender's name, email and message.
-     *
-     * @var Content
-     */
-    public $content;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($content)
+    public function __construct()
     {
-        $this->content = $content;
+        //
     }
 
     /**
@@ -35,8 +28,6 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->from( $this->content['email'])
-                    ->subject('Centrstage Message from '.$this->content['name'])
-                    ->view('emails.contact');
+        return $this->markdown('emails.contactForm');
     }
 }

@@ -12,12 +12,12 @@
 
 <main>
 
-	<section class="hostAStream">
+	<section class="contact">
 
-		<h1 class="hostAStream-heroText">
-			Want to host a stream?
+		<h1 class="contact-heroText">
+			Get in touch
 		</h1>
-		<h2 class="hostAStream-subtext">
+		<h2 class="contact-subtext">
 			We'd love to hear from you. Please get in touch via the form below.
 		</h2>
 		

@@ -26,8 +26,8 @@ class PagesController extends Controller
     	return view('pages.signup');
     }
 
-    public function hostAStream()
+    public function contact()
     {
-    	return view('pages.host-a-stream');
+    	return view('pages.contact');
     }
 }

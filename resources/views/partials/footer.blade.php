@@ -12,7 +12,7 @@
 		<div class="footer-column">
 			<ul class="footer-column-linkGroup">
 				<li><a class="footer-column-linkGroup-link" href="/about">About Centrstage</a></li>
-				<li><a class="footer-column-linkGroup-link" href="/host-a-stream">Want to host a stream?</a></li>
+				<li><a class="footer-column-linkGroup-link" href="/contact">Get in touch</a></li>
 			</ul>
 		</div>
 		<div class="footer-column">
