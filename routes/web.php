@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['domain' => env('APP_URL')], function () {
+// Route::group(['domain' => env('APP_URL')], function () {
 	Route::get('/', 'PagesController@homepage');
 	Route::get('about', 'PagesController@about');
 	Route::get('how-it-works', 'PagesController@howItWorks');
@@ -29,10 +29,10 @@ Route::group(['domain' => env('APP_URL')], function () {
 	Route::get('live', function () {
 		return redirect('https://livestream.com/accounts/23488315');
 	});
-});
+// });
 
-Route::group(['domain' => 'admin.'.env('APP_URL')], function () {
-	Route::get('/', 'AdminController@home');
+// Route::group(['domain' => 'admin.'.env('APP_URL')], function () {
+// 	Route::get('/', 'AdminController@home');
 
-	Route::get('signups', 'SignupsController@index');
-});
+// 	Route::get('signups', 'SignupsController@index');
+// });
