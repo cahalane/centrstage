@@ -4,21 +4,21 @@
 	<div class="field">
 		<label class="label">Name</label>
 		<p class="control">
-			<input class="input" type="text" name="name" placeholder="Your Name" required>
+			<input class="input" type="text" name="name" placeholder="Your Name" value="{{ old('name') }}" required>
 		</p>
 	</div>
 
 	<div class="field">
 		<label class="label">Email</label>
 		<p class="control">
-			<input class="input" type="text" name="email" placeholder="your@email.com" required>
+			<input class="input" type="text" name="email" placeholder="your@email.com" value="{{ old('email') }}" required>
 		</p>
 	</div>
 
 	<div class="field">
 		<label class="label">Message</label>
 		<p class="control">
-			<textarea class="textarea" name="message" placeholder="Say hello!"></textarea>
+			<textarea class="textarea" name="message" placeholder="Say hello!" value="{{ old('message') }}" required></textarea>
 		</p>
 	</div>
 
