@@ -2,7 +2,8 @@
 
 	.hero {
 		background: url(/img/hero-image.jpg) center center no-repeat fixed rgba(0,0,0,0.4);
-		@include background-size-cover;
+		background-size: cover;
+		background-attachment: scroll;
 		background-blend-mode: darken;
 		color: $brand-white;
 
