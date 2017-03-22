@@ -25,6 +25,7 @@
 	Route::post('contact', 'ContactController@mail');
 
 	Route::post('signup', 'SignupsController@store');
+	Route::get('signups', 'SignupsController@index');
 
 	Route::get('live', function () {
 		return redirect('https://livestream.com/centrstage');

@@ -18,7 +18,7 @@
     <div class="field">
         <label class="label">Email</label>
         <p class="control is-expanded">
-            <input class="input" type="text" name="Email" placeholder="your@email.com" value="{{ old('email') }}" required>
+            <input class="input" type="text" name="email" placeholder="your@email.com" value="{{ old('email') }}" required>
         </p>
     </div>
 

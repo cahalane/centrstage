@@ -16,8 +16,8 @@ class ContactController extends Controller
 	        'email' => $request->email
         ];        
 
-        Mail::to('dave@jiff.ie')
-            ->cc('dave@jiff.ie')
+        Mail::to(env('MAIL_TO_ADDRESS'))
+            ->cc(env('MAIL_CC_ADDRESS'))
             ->send(new Contact($content));
 
         return redirect('/');

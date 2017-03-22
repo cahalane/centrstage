@@ -8,7 +8,7 @@
 		</div>
 		<div class="column">
 			<ul class="footer-group">
-				<li><a href="/about" class="footer-group-link">About Centrstage</a></li>
+				<li><a href="/about" class="footer-group-link">About CENTRSTAGE</a></li>
 				<li><a href="/contact" class="footer-group-link">Get in touch</a></li>
 			</ul>
 		</div>
@@ -19,7 +19,7 @@
 						<img class="footer-group-logo" src="/img/centrstage-logo-light.png"></img>
 					</a>
 				</li>
-				<li class="footer-group-copyright">&copy; Centrstage 2017.</li>
+				<li class="footer-group-copyright">&copy; CENTRSTAGE 2017.</li>
 			</ul>
 		</div>
 	</div>
