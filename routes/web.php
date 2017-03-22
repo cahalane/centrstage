@@ -27,7 +27,7 @@
 	Route::post('signup', 'SignupsController@store');
 
 	Route::get('live', function () {
-		return redirect('https://livestream.com/accounts/23488315');
+		return redirect('https://livestream.com/centrstage');
 	});
 // });
 

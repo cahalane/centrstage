@@ -1,0 +1,77 @@
+.stream {
+	position: relative;
+	min-height: 8.563em;
+
+	a:hover {
+		color: #650000;
+	}
+
+	&-details {
+		margin: 8.563em 1.5em 2.5em;
+	}
+
+	&-artist {
+		display: block;
+		@include font-futura;
+		font-weight: 600;
+		font-size: 2em;
+		color: $brand-white;
+	}
+
+	&-location {
+		display: flex;
+		align-items: center;
+		@include font-lato;
+		color: $brand-white;
+	}
+
+	&-venue {
+		line-height: 2em;
+	}
+
+	&-date {
+		@include box-shadow;
+		position: absolute;
+		top: 0;
+		right: 0;
+		text-align: center;
+		background-color: $brand-white;
+		padding: 1em;
+	}
+
+	&-month {
+		@include font-futura;
+		font-weight: 600;
+		font-size: 1.4em;
+		margin: 0;
+		color: $brand-red;
+	}
+
+	&-day {
+		@include font-futura;
+		font-weight: 600;
+		font-size: 3em;
+		margin: 0;
+		color: $brand-dark-grey;
+	}
+
+	// Every fourth stream, starting with the first.
+	&:nth-of-type(4n-7) {
+		background-color: $brand-light-grey;
+	}
+
+	// Every fourth stream, starting with the second.
+	&:nth-of-type(4n-6) {
+		background-color: $brand-black;
+	}
+
+	// Every fourth stream, starting with the third.
+	&:nth-of-type(4n-5) {
+		background-color: $brand-red;
+	}
+
+	// Every fourth stream, starting with the fourth.
+	&:nth-of-type(4n) {
+		background-color: $brand-dark-grey;
+	}
+}

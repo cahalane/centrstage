@@ -17,7 +17,8 @@
     </title>
 
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="{{ mix('/css/site.css') }}" rel="stylesheet" type="text/css">
+    <link href="/css/vendor.css" rel="stylesheet" type="text/css">
+    <link href="/css/site.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 

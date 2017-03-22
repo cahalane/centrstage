@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-Live Concert Streams | Centrstage
+Live Concert Streams | CENTRSTAGE
 @endsection
 
 @section('content')
@@ -14,24 +14,24 @@ Live Concert Streams | Centrstage
 
 	</header>
 
-	<section class="streamsPage">
+	<section class="content fullWidthPadding" id="streams-page">
 
-		<h1 class="streamsPage-heroText">
+		<h1>
 			We're launching soon, keep posted for our first streams.
 		</h1>
-		<h2 class="streamsPage-subtext">
-			Find new bands, keep up with your favourites or discover new artists on <span class="logotype-black">centr</span><span class="logotype-red">stage</span>.
-		</h2>
-		<h2 class="streamsPage-subtext">
+		<p>
+			Find new bands, keep up with your favourites or discover new artists on <span class="logotype-black">CENTR</span><span class="logotype-red">STAGE</span>.
+		</p>
+		<p>
 			Watch live concert streams for free, voluntarily donate to the band and support real musicians with a virtual busking case.
-		</h2>
-		<a class="streamsPage-button-link" href="/signup">
-			<button class="streamsPage-button button--primary">Sign Up</button>
+		</p>
+		<a class="button is-primary" href="/signup">
+			Sign Up
 		</a>
 
 	</section>
 
-	{{-- @include('components/streamsIndex') --}}
+	@include('components/streams-index')
 
 </main>
 

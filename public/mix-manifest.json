@@ -1,6 +1,8 @@
 {
-  "/js/site.js": "/js/site.5bf05cf958993c8acf7a.js",
-  "/css/site.css": "/css/site.55fdbc69b16ce09711e3.css",
-  "/css/admin.css": "/css/admin.55fdbc69b16ce09711e3.css",
-  "/js/admin.js": "/js/admin.fcf5b2903727acf93dc2.js"
+  "/js/site.js": "/js/site.js",
+  "/css/site.css": "/css/site.css",
+  "/css/admin.css": "/css/admin.css",
+  "/../resources/assets/css/vendor.css": "/../resources/assets/css/vendor.css",
+  "/js/admin.js": "/js/admin.js",
+  "/css/vendor.css": "/css/vendor.css"
 }

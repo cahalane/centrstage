@@ -17,6 +17,7 @@ class ContactController extends Controller
         ];        
 
         Mail::to('dave@jiff.ie')
+            ->cc('dave@jiff.ie')
             ->send(new Contact($content));
 
         return redirect('/');

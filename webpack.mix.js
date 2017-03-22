@@ -15,4 +15,7 @@ mix.js('resources/assets/js/site.js', 'public/js')
    .js('resources/assets/js/admin.js', 'public/js')
    .sass('resources/assets/sass/site.scss', 'public/css')
    .sass('resources/assets/sass/admin.scss', 'public/css')
-   .version();
+   .sass('resources/assets/sass/vendor.scss', '../resources/assets/css')
+   .styles([
+   'resources/assets/css/vendor.css',
+   ], 'public/css/vendor.css');

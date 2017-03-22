@@ -1,0 +1,144 @@
+.heroArea {
+	font-size: 1rem;
+	background: url(/img/hero-image.jpg) center center no-repeat fixed rgba(0,0,0,0.4);
+	@include background-size-cover;
+	background-blend-mode: darken;
+	width: 100%;
+	min-height: 80vh;
+
+	&-content {
+		margin-top: 20vh;
+		margin-left: 10%;
+		margin-right: 10%;
+		color: $brand-white;
+
+		&-heading {
+			@include font-futura;
+			text-align: center;
+			font-size: 2em;
+		}
+
+		&-subtitle {
+			@include font-lato;
+			text-align: center;
+			font-size: 1.4em;
+		}
+
+		&-button {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 200px;
+
+			&.button--primary {
+				font-size: 1.4em;
+			}
+
+			&.button--secondary {
+				font-size: 1.4em;
+				margin-top: 1em;
+				margin-bottom: 1em;
+			}
+
+			&-link {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.heroArea {
+
+		&-content {
+			margin-left: 60%;
+			margin-right: 15px;
+
+			&-heading {
+				text-align: left;
+			}
+
+			&-subtitle {
+				text-align: left;
+			}
+
+			&-button {
+				display: initial;
+				width: initial;
+				margin-left: initial;
+				margin-right: initial;
+
+				&--primary {
+
+				}
+
+				&--secondary {
+
+				}
+
+				&-link {
+
+				}
+			}
+
+			&-button:first-of-type {
+				margin-right: 1em;
+			}
+		}
+	}
+}
+
+.explanation {
+	font-size: 1rem;
+	background-color: $brand-white;
+	text-align: center;
+	margin-top: 5em;
+	margin-left: 15px;
+	margin-bottom: 5em;
+	margin-right: 15px;
+
+	&-heroText {
+		@include font-futura;
+		font-size: 2.5em;
+		font-weight: 600;
+		color: $brand-black;
+	}
+
+	&-subtext {
+		@include font-lato;
+		font-size: 1.6em;
+		color: $brand-dark-grey;
+	}
+
+	&-paragraph {
+		@include font-lato;
+		font-size: 1em;
+		color: $brand-black;
+	}
+
+	&-button {
+		font-size: 1.4em;
+		width: 200px;
+	}
+}
+
+@media (min-width: 768px) {
+	.explanation {
+		margin-left: 15%;
+		margin-bottom: 10em;
+		margin-right: 15%;
+
+		&-heroText {
+
+		}
+
+		&-subtext {
+
+		}
+
+		&-button {
+			width: initial;
+		}
+	}
+}

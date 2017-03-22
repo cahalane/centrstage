@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-About Centrstage
+About CENTRSTAGE
 @endsection
 
 @section('content')
@@ -12,25 +12,25 @@ About Centrstage
 
 <main>
 
-	<section class="about">
-
-		<h1 class="about-heroText">
-			<span class="logotype-black">centr</span><span class="logotype-red">stage</span> is an online platform that allows subscribers to watch live music performances in real-time from the comfort of their own home.
+	<section class="content fullWidthPadding" id="about">
+		<h1>
+			<span class="logotype-black">CENTR</span><span class="logotype-red">STAGE</span> is an online platform that allows subscribers to watch live music performances in real-time from the comfort of their own home.
 		</h1>
-		<h2 class="about-subtext">
+		<p>
 			Our mission is to become the primary outlet for viewing unique, professionally captured, live music performances online.
-		</h2>
-		<h2 class="about-subtext">
+		</p>
+		<p class="about-subtext">
 			We aim to establish ourselves as a brand that truly champions music, stands up for artistry and nurtures connectivity, whilst providing an exciting platform for musical discovery.
-		</h2>
-		<a class="about-button-link" href="/signup">
-			<button class="about-button button--primary">Sign Up</button>
+		</p>
+		<a class="button is-primary" href="/signup">
+			Sign Up
 		</a>
-
 	</section>
+
+	@include('components.streams-index')
 
 </main>
 
-@include('partials/footer')
+@include('partials.footer')
 
 @endsection

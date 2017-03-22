@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-Get in touch | Centrstage
+Get in touch | CENTRSTAGE
 @endsection
 
 @section('content')
@@ -12,14 +12,14 @@ Get in touch | Centrstage
 
 <main>
 
-	<section class="contact">
+	<section class="content fullWidthPadding" id="contact">
 
-		<h1 class="contact-heroText">
+		<h1>
 			Get in touch
 		</h1>
-		<h2 class="contact-subtext">
+		<p>
 			We'd love to hear from you. Please get in touch via the form below.
-		</h2>
+		</p>
 		
 		@include('forms.contact')
 

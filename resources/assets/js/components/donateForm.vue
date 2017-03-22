@@ -64,7 +64,7 @@ export default {
                 zipCode: false,
                 currency: 'eur',
                 amount: this.amount*100,
-                panelLabel: 'Donate {{amount}}'
+                panelLabel: 'Pay {{amount}}'
             });
         }
     },

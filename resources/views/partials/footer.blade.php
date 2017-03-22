@@ -1,29 +1,26 @@
 <footer class="footer">
-
-	<div class="footer-inner">
-
-	<div class="footer-column">
-			<ul class="footer-column-linkGroup">
-				<li><a class="footer-column-linkGroup-link" href="/streams">Live Concert Streams</a></li>
-				
-				<li><a class="footer-column-linkGroup-link" href="/signup">Sign up</a></li>
+	<div class="columns level">
+		<div class="column">
+			<ul class="footer-group">
+				<li><a href="/streams" class="footer-group-link">Live Concert Streams</a></li>
+				<li><a href="/signup" class="footer-group-link">Sign up</a></li>
 			</ul>
 		</div>
-		<div class="footer-column">
-			<ul class="footer-column-linkGroup">
-				<li><a class="footer-column-linkGroup-link" href="/about">About Centrstage</a></li>
-				<li><a class="footer-column-linkGroup-link" href="/contact">Get in touch</a></li>
+		<div class="column">
+			<ul class="footer-group">
+				<li><a href="/about" class="footer-group-link">About Centrstage</a></li>
+				<li><a href="/contact" class="footer-group-link">Get in touch</a></li>
 			</ul>
 		</div>
-		<div class="footer-column">
-			<div class="footer-column-logo">
-				<a class="footer-column-logo-link" href="/">
-					<img class="footer-column-logo-image" src="/img/centrstage-logo-light.png"></img>
-				</a>
-			</div>
-			<h1 class="footer-column-copyright">&copy; Centrstage 2017.</h1>
+		<div class="column">
+			<ul class="footer-group">
+				<li>
+					<a href="/" class="footer-group-link">
+						<img class="footer-group-logo" src="/img/centrstage-logo-light.png"></img>
+					</a>
+				</li>
+				<li class="footer-group-copyright">&copy; Centrstage 2017.</li>
+			</ul>
 		</div>
-
 	</div>
-
 </footer>

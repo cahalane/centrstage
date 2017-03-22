@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-<title>{{ $stream->title }} Live | Centrstage</title>
+{{ $stream->title }} Live | CENTRSTAGE
 @endsection
 
 @section('content')
@@ -17,7 +17,7 @@
 	<div class="streamContainer">
 		<section class="streamContainer-video">
 
-			<div class="streamContainer-video-player fb-video" data-href="https://www.facebook.com/1615598228728084/videos/1870984349856136/" data-width="auto" data-allowfullscreen="true"></div>
+			<div class="streamContainer-video-player fb-video" data-href="https://www.facebook.com/rockandrollhalloffame/videos/vb.21010144106/10154058192344107/" data-width="auto" data-allowfullscreen="true"></div>
 
 		</section>
 
@@ -39,7 +39,7 @@
 		</section>
 	</div>
 
-	@include('components/streamsIndex')
+	{{-- @include('components/streams-index') --}}
 
 </main>
 

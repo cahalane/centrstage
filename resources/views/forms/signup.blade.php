@@ -1,22 +1,32 @@
-<form class="signupForm" method="POST" action="/signup">
+<form class="form" id="signup" method="POST" action="/signup">
     {{ csrf_field() }}
 
-    <div class="signupForm-textInput">
-        <label class="signupForm-textInput-label" for="firstName">First Name:</label>
-        <input class="signupForm-textInput-input" type="text" name="firstName" value="{{ old('firstName') }}" validate>
+    <div class="field">
+        <label class="label">First Name</label>
+        <p class="control">
+            <input class="input" type="text" name="firstName" placeholder="First" value="{{ old('firstName') }}" required>
+        </p>
     </div>
 
-    <div class="signupForm-textInput">
-        <label class="signupForm-textInput-label" for="lastName">Last Name:</label>
-        <input class="signupForm-textInput-input" type="text" name="lastName" value="{{ old('lastName') }}" validate>
+    <div class="field">
+        <label class="label">Last Name</label>
+        <p class="control">
+            <input class="input" type="text" name="lastName" placeholder="Last" value="{{ old('lastName') }}" required>
+        </p>
     </div>
 
-    <div class="signupForm-textInput">
-        <label class="signupForm-textInput-label" for="email">Email:</label>
-        <input class="signupForm-textInput-input" type="text" name="email" value="{{ old('email') }}" validate>
+    <div class="field">
+        <label class="label">Email</label>
+        <p class="control is-expanded">
+            <input class="input" type="text" name="Email" placeholder="your@email.com" value="{{ old('email') }}" required>
+        </p>
     </div>
 
-    <button class="signupForm-button button--primary" type="submit">Sign up</button>
+    <div class="field">
+        <p class="control">
+            <button class="button is-primary" type="submit">Sign Up</button>
+        </p>
+    </div>
 
     <div class="signupForm-errors">
         @if (count($errors))

@@ -1,46 +1,52 @@
 @extends('site')
 
 @section('title')
-Centrstage | Live Music Anywhere
+CENTRSTAGE | Live Music Anywhere
 @endsection
 
 @section('content')
 
-<main>
+<main class="homepage">
 
-	<section class="heroArea">
-
-		@include('partials.navbar')
-
-		<div class="heroArea-content heroArea-content--tabletAndBelow">
-			<h1 class="heroArea-content-heading">Join the band.</h1>
-			<h3 class="heroArea-content-subtitle">Live music streamed anywhere, on any device.</h3>
-			<a class="heroArea-content-button-link" href="/streams">
-				<button class="heroArea-content-button button--primary">Watch now</button>
-			</a>
-			<a class="heroArea-content-button-link" href="/signup">
-				<button class="heroArea-content-button button--secondary">Sign up</button>
-			</a>
+	<section class="hero is-medium">
+		<div class="hero-head">
+			@include('partials.navbar')
 		</div>
 
+		<div class="hero-body">
+			<div class="columns">
+				<div class="column is-offset-7">
+					<h1 class="title">
+						Join the band.
+					</h1>
+					<h2 class="subtitle">
+						Live music streamed anywhere, on any device.
+					</h2>
+					<a class="button is-primary" href="https://livestream.com/centrstage">
+						Watch now
+					</a>
+					<a class="button is-white is-outlined" href="/signup">
+						Sign up
+					</a>
+				</div>
+			</div>
+		</div>
 	</section>
 
-	<section class="explanation">
-
-		<h1 class="explanation-heroText">
+	<section class="content fullWidthPadding" id="explanation">
+		<h1>
 			We're bringing live music everywhere.</br>
 			Join the movement.
 		</h1>
-		<h2 class="explanation-subtext">
-			Find new bands, keep up with your favourites or discover new artists on <span class="logotype-black">centr</span><span class="logotype-red">stage</span>.
-		</h2>
-		<h2 class="explanation-subtext">
+		<p>
+			Find new bands, keep up with your favourites or discover new artists on <span class="logotype-black">CENTR</span><span class="logotype-red">STAGE</span>.
+		</p>
+		<p>
 			Watch live concert streams for free, voluntarily donate to the band and support real musicians with a virtual busking case.
-		</h2>
-
+		</p>
 	</section>
 
-	{{-- @include('components/streamsIndex') --}}
+	@include('components/streams-index')
 
 </main>
 

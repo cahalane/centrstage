@@ -1,7 +1,7 @@
 @extends('site')
 
 @section('title')
-<title>Sign up to Centrstage</title>
+Sign up to CENTRSTAGE
 @endsection
 
 @section('content')
@@ -12,19 +12,19 @@
 
 <main>
 	
-<section class="signup">
-	
-<h1 class="signup-heroText">
-	Sign up to Centrstage completely free.
-</h1>
+	<section class="content fullWidthPadding" id="signup">
+		<h1>
+			Sign up to <span class="logotype-black">CENTR</span><span class="logotype-red">STAGE</span> completely free.
+		</h1>
+		<p>
+			Join us as we embark on bringing live music everywhere. Don't worry about us filling your inboxes, we'll only email you with big updates.
+		</p>
 
-<p class="signup-paragraph">
-	Join us as we embark on bringing live music everywhere. Don't worry about us filling your inboxes, we'll only email you with big updates.
-</p>
+		@include('forms.signup')
 
-@include('forms.signup')
+	</section>
 
-</section>
+	@include('components.streams-index')
 
 </main>
 
