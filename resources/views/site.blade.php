@@ -12,6 +12,10 @@
     	}
     </script>
 
+    @if(env('APP_ENV') == 'production')
+        @include('includes.google-analytics')
+    @endif
+
     <title>
         @yield('title')
     </title>
