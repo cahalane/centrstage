@@ -1,5 +1,5 @@
 <section class="streams-index">
-	<div class="columns is-gapless">
+	<div class="columns is-gapless is-multiline">
 		<div class="stream column">
 			<div class="stream-details content">
 				<a class="stream-artist" href="https://www.facebook.com/psychedelicpillband/" target="_blank">Psychedelic Pill</a>

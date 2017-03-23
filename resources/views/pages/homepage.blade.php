@@ -46,10 +46,12 @@ CENTRSTAGE | Live Music Anywhere
 		</p>
 	</section>
 
-	@include('components/streams-index')
+	@include('partials.the-woodford-sessions')
+
+	@include('components.streams-index')
 
 </main>
 
-@include('partials/footer')
+@include('partials.footer')
 
 @endsection
