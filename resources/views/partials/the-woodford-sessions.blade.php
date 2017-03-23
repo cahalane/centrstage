@@ -23,7 +23,7 @@
 								Recorded 1 March 2017
 							</p>
 							<p>
-								Ruby Tina is a singer-songwriter and piano player and has written and produced an extensive catalogue of songs drawing inspiration from all genres of music.
+								Ruby Tina Spilsbury is a singer-songwriter and piano player and has written and produced an extensive catalogue of songs drawing inspiration from all genres of music.
 							</p>
 							<p>
 								The Night Hawks present Ruby's songs with a rock fueled drive. <a href="https://www.facebook.com/rubynighthawks1/">Find them on Facebook.</a>

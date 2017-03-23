@@ -7,12 +7,26 @@
 		background-blend-mode: darken;
 		color: $brand-white;
 
-		.nav {
-			box-shadow: none;
+		&-body {
+			padding-left: 10%;
+			padding-right: 15%;
 		}
 	}
 
 	#explanation {
 
+	}
+}
+@media (min-width: 768px) {
+	.homepage {
+		.hero {
+			padding-left: 0;
+			padding-right: 0;
+
+			&-body {
+				padding-left: initial;
+				padding-right: initial;
+			}
+		}
 	}
 }
