@@ -13,9 +13,9 @@ About CENTRSTAGE
 <main>
 
 	<section class="content fullWidthPadding" id="about">
-		<h1>
+		<h3>
 			<span class="logotype-black">CENTR</span><span class="logotype-red">STAGE</span> is an online platform that allows subscribers to watch live music performances in real-time from the comfort of their own home.
-		</h1>
+		</h3>
 		<p>
 			Our mission is to become the primary outlet for viewing unique, professionally captured, live music performances online.
 		</p>

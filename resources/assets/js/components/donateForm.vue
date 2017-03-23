@@ -13,7 +13,7 @@
             <input class="donateForm-amount-input" type="number" name="amount" v-model="amount">
         </div>
 
-        <button class="donateForm-button button--tertiary" type="submit" @click.prevent="donate">Pay what you want</button>
+        <button class="donateForm-button button is-primary" type="submit" @click.prevent="donate">Pay what you want</button>
 
         <p class="donateForm-errors" v-show="status">{{ status }} Please try again later or with a different card.</p>
     </form>
@@ -37,7 +37,7 @@ export default {
     created() {
         this.stripe = StripeCheckout.configure({
             key: window.Laravel.stripeKey,
-            image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+            image: 'https://image.flaticon.com/icons/png/512/38/38972.png',
             locale: 'auto',
             token: (token) => {
                 this.stripeEmail = token.email,
@@ -59,8 +59,8 @@ export default {
     methods: {
         donate() {
             this.stripe.open({
-                name: 'Centrstage',
-                description: 'Pay what you want for '+this.stream.title+'.',
+                name: 'Pay for '+this.stream.title+'.',
+                description: 'Secure payments by Stripe.',
                 zipCode: false,
                 currency: 'eur',
                 amount: this.amount*100,

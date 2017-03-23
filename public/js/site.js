@@ -11127,7 +11127,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     methods: {
         donate: function donate() {
             this.stripe.open({
-                name: 'Centrstage',
+                name: 'Secure Payments by Stripe&reg;',
                 description: 'Pay what you want for ' + this.stream.title + '.',
                 zipCode: false,
                 currency: 'eur',
