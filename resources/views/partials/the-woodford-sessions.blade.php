@@ -14,7 +14,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="//www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -22,7 +22,7 @@
 							Crojayn
 						</p>
 						<p class="subtitle is-6">
-							Recorded 8 March 2017
+							Recorded 15 March 2017
 						</p>
 						<p>
 							Crojayn are a blues rock band formed in 2013. Not finished school yet, this band is one to watch as they take the world by storm.
@@ -38,7 +38,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="//www.youtube.com/embed/BTiiI1i77Hc" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/BTiiI1i77Hc" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -62,7 +62,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="//www.youtube.com/embed/ibR3dPzrzuI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/ibR3dPzrzuI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -86,7 +86,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="//www.youtube.com/embed/8fip0LjJ4MI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/8fip0LjJ4MI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -110,7 +110,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="//www.youtube.com/embed/tSoxs0QqaJE" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/tSoxs0QqaJE" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -134,7 +134,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="//www.youtube.com/embed/Vitf7yVI6JI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/Vitf7yVI6JI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
