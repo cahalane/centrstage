@@ -62,7 +62,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="http://www.youtube.com/embed/ibR3dPzrzuI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/ibR3dPzrzuI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -86,7 +86,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="http://www.youtube.com/embed/8fip0LjJ4MI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/8fip0LjJ4MI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
