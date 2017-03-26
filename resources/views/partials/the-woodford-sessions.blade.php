@@ -14,7 +14,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="//www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
