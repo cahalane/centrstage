@@ -9,6 +9,32 @@
 
 	<div class="columns is-multiline">
 
+		
+
+		<div class="column is-one-third">
+			<div class="card">
+				<div class="card-video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						<p class="title is-4">
+							Crojayn
+						</p>
+						<p class="subtitle is-6">
+							Recorded 8 March 2017
+						</p>
+						<p>
+							Crojayn are a blues rock band formed in 2013. Not finished school yet, this band is one to watch as they take the world by storm.
+						</p>
+						<p>
+							Crojayn took a break from their studies to perfom in The Woodford. <a href="https://www.facebook.com/crojayn">Find them on Facebook.</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
