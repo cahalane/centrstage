@@ -14,7 +14,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="http://www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -38,7 +38,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="http://www.youtube.com/embed/BTiiI1i77Hc" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/BTiiI1i77Hc" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -110,7 +110,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="http://www.youtube.com/embed/tSoxs0QqaJE" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/tSoxs0QqaJE" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -134,7 +134,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="http://www.youtube.com/embed/Vitf7yVI6JI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/Vitf7yVI6JI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
