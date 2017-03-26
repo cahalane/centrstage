@@ -14,7 +14,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="https://www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="//www.youtube.com/embed/qqOz2CXw0aI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -38,7 +38,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="https://www.youtube.com/embed/BTiiI1i77Hc" frameborder="0" allowfullscreen></iframe>
+					<iframe src="//www.youtube.com/embed/BTiiI1i77Hc" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -62,7 +62,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="https://www.youtube.com/embed/ibR3dPzrzuI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="//www.youtube.com/embed/ibR3dPzrzuI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -76,7 +76,7 @@
 							Tootawl is Richard O’ Gorman, an Irish singer-songwriter whose 6 foot 5 height earned him his stage name while gigging in Nashville, Tennessee.
 						</p>
 						<p>
-							Mainly taking inspiration from artists like Bob Dylan, The Beatles and also older blues musicians such as Blind Willie McTell, Tootawl mixes this strong sense of musical tradition with his own unique folk style. <a href="https://www.facebook.com/tootawl/">Find him on Facebook.</a>
+							Mainly taking inspiration from artists like Bob Dylan and The Beatles, Tootawl mixes this strong sense of musical tradition with his own unique folk style. <a href="https://www.facebook.com/tootawl/">Find him on Facebook.</a>
 						</p>
 					</div>
 				</div>
@@ -86,7 +86,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="https://www.youtube.com/embed/8fip0LjJ4MI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="//www.youtube.com/embed/8fip0LjJ4MI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -110,7 +110,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="https://www.youtube.com/embed/tSoxs0QqaJE" frameborder="0" allowfullscreen></iframe>
+					<iframe src="http://www.youtube.com/embed/tSoxs0QqaJE" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
@@ -124,7 +124,7 @@
 							Sarah-Beth is an antifolk singer/songwriter/pianist who uses groove, melody and rhythm to translate stories and ideas.
 						</p>
 						<p>
-							Sarah-Beth often plays live accompanied by a full band.<a href="https://www.facebook.com/SBOMmusic/">Find her on Facebook.</a>
+							Sarah-Beth often plays live accompanied by a full band. <a href="https://www.facebook.com/SBOMmusic/">Find her on Facebook.</a>
 						</p>
 					</div>
 				</div>
@@ -134,7 +134,7 @@
 		<div class="column is-one-third">
 			<div class="card">
 				<div class="card-video">
-					<iframe src="https://www.youtube.com/embed/Vitf7yVI6JI" frameborder="0" allowfullscreen></iframe>
+					<iframe src="//www.youtube.com/embed/Vitf7yVI6JI" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="card-content">
 					<div class="content">
