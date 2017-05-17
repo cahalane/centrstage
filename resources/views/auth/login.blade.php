@@ -13,6 +13,10 @@ Log in to CENTRSTAGE
 <main>
     
     <section class="content fullWidthPadding" id="login">
+        <h1>
+            Login to <span class="logotype-black">CENTR</span><span class="logotype-red">STAGE</span>.
+        </h1>
+
 
         @include('forms.login')
 
