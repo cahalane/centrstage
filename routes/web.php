@@ -16,7 +16,7 @@
 	Route::get('about', 'PagesController@about');
 	Route::get('how-it-works', 'PagesController@howItWorks');
 	Route::get('contact', 'PagesController@contact');
-	Route::get('signup', 'PagesController@signup');
+	Route::get('signup', 'Auth\RegisterController@showRegistrationForm');
 
 	Route::resource('streams', 'StreamsController');
 
@@ -24,8 +24,7 @@
 
 	Route::post('contact', 'ContactController@mail');
 
-	Route::post('signup', 'SignupsController@store');
-	Route::get('signups', 'SignupsController@index');
+ 	Route::get('admin', 'AdminController@home');
 
 	Route::get('live', function () {
 		return redirect('https://livestream.com/centrstage');
@@ -37,3 +36,4 @@
 
 // 	Route::get('signups', 'SignupsController@index');
 // });
+Auth::routes();
