@@ -12,6 +12,10 @@
         <a class="navbar-link button is-primary" href="/signup">
           Sign Up
         </a>
+      @elseif(Auth::user()->is_admin)
+        <a class="navbar-link button is-primary" href="/admin">
+          Admin Panel
+        </a>
       @endif
     </div>
   </div>

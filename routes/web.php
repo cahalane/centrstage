@@ -25,7 +25,7 @@
 
 	Route::post('contact', 'ContactController@mail');
 
- 	Route::get('admin', 'AdminController@home');
+ 	Route::get('admin', 'AdminController@home')->middleware('admin');
 
 	Route::get('live', function () {
 		return redirect('https://livestream.com/centrstage');
