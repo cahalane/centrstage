@@ -25,9 +25,11 @@ CENTRSTAGE | Live Music Anywhere
 					<a class="button is-primary" href="https://livestream.com/centrstage">
 						Watch now
 					</a>
-					<a class="button is-white is-outlined" href="/signup">
-						Sign up
-					</a>
+					@if(!Auth::check())
+						<a class="button is-white is-outlined" href="/signup">
+							Sign up
+						</a>
+					@endif
 				</div>
 			</div>
 		</div>

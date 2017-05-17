@@ -8,9 +8,11 @@
     <div class="navbar-links">
       <a class="navbar-link" href="/streams" >Live Concert Streams</a>
       <a class="navbar-link" href="/about" >About</a>
-      <a class="navbar-link button is-primary" href="/signup">
-        Sign Up
-      </a>
+      @if(!Auth::check())
+        <a class="navbar-link button is-primary" href="/signup">
+          Sign Up
+        </a>
+      @endif
     </div>
   </div>
 </nav>

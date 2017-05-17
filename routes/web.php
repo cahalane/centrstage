@@ -13,6 +13,7 @@
 
 // Route::group(['domain' => env('APP_URL')], function () {
 	Route::get('/', 'PagesController@homepage');
+	Route::get('/home', function(){ return redirect('/'); });
 	Route::get('about', 'PagesController@about');
 	Route::get('how-it-works', 'PagesController@howItWorks');
 	Route::get('contact', 'PagesController@contact');
